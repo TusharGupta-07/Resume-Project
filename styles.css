@@ -45,7 +45,7 @@ body{
     letter-spacing : 0.1rem;
     color : whitesmoke;
     text-align : center;
-    margin-top: 150px;
+    margin-top: auto;
     margin-bottom: auto;
 }
 .social-icons{
@@ -75,8 +75,10 @@ body{
     box-shadow: 0px 0px 2px 2px rgb(196, 181, 181);
     
 }
+#social-container{
+    margin-top : 20vh;
+}
 #my-Image img{
-    height : 20%;
     border-radius: 50%;
     width: 300px;
     height: auto;
