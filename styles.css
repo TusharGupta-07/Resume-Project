@@ -1,0 +1,112 @@
+body{
+    margin:0px;
+    background-color : rgb(73, 73, 73);
+}
+#body-header{
+    background-image : url(https://www.xmple.com/wallpaper/linear-red-black-gradient-highlight-1920x1080-c2-000000-b22222-l-33-a-165-f-21.svg);
+    height : 70vh;
+    background-size : cover;
+    background-position: center;
+    background-attachment : fixed;
+}
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    padding : 15px;
+    border-bottom : dotted rgb(248, 245, 245);
+    border-radius: 100px;
+    border-width: 5px;
+    margin : 0px;
+
+}
+.horizontal-list li{
+    display : inline-block;
+    margin : 0px 8px 8px 0px;
+
+}
+.horizontal-list li a{
+    text-decoration:none;
+    color : white;
+    font-size: 20px;
+    padding : 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.horizontal-list li a:hover{
+    color : white;
+    transition: box-shadow 0.5s;
+    box-shadow : 0px 2px 2px 0px;
+    /* border-left : dotted white;
+    border-right : dotted white;*/
+    border-radius: 50%; 
+}
+#myName{
+    font-weight: 700;
+    font-size : 3rem;
+    letter-spacing : 0.1rem;
+    color : whitesmoke;
+    text-align : center;
+    margin-top: 150px;
+    margin-bottom: auto;
+}
+.social-icons{
+    list-style: none;
+    padding-left: 0px;
+    padding : 15px;
+    margin : 0px;
+
+}
+.social-icons li{
+    display : inline-block;
+    margin : 0px 8px 8px 0px;
+}
+.social-icons li a{
+    text-decoration:none;
+    color : white;
+}
+.social-icons li a i{
+    padding:10px;
+    font-size:1rem;
+    border-radius: 50%;
+    
+}
+.social-icons li a i:hover{
+    transition: box-shadow 0.5s;
+
+    box-shadow: 0px 0px 2px 2px rgb(196, 181, 181);
+    
+}
+#my-Image img{
+    height : 20%;
+    border-radius: 50%;
+    width: 300px;
+    height: auto;
+    width: 200px;
+    height: auto;
+    margin-top: -10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+#my-Image img:hover{
+    transition: box-shadow 0.5s;
+
+    box-shadow: 0px 0px 4px 4px rgb(196, 181, 181);
+}
+#about p{
+    color : white;
+    font-size : 1.5rem;
+    position : relative;
+    margin-left: 11%;
+    margin-right: 11%;
+    letter-spacing : 0.1rem;
+
+}
+#about a{
+    text-decoration: none;
+}
+    
+.text-center{
+    text-align : center;
+} 
+
