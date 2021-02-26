@@ -77,6 +77,7 @@ body{
 }
 #social-container{
     margin-top : 20vh;
+    margin-bottom : 10vh;
 }
 #my-Image img{
     border-radius: 50%;
