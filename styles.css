@@ -4,7 +4,7 @@ body{
 }
 #body-header{
     background-image : url(https://www.xmple.com/wallpaper/linear-red-black-gradient-highlight-1920x1080-c2-000000-b22222-l-33-a-165-f-21.svg);
-    height : 70vh;
+    height : 30rem;
     background-size : cover;
     background-position: center;
     background-attachment : fixed;
@@ -85,7 +85,7 @@ body{
     height: auto;
     width: 200px;
     height: auto;
-    margin-top: -10%;
+    margin-top: -7%;
     margin-left: auto;
     margin-right: auto;
     display: block;
