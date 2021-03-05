@@ -2,6 +2,9 @@ body{
     margin:auto;
     background-color : rgb(73, 73, 73);
 }
+
+/* CSS for Home section */
+
 #body-header{
     background-image : url(https://www.xmple.com/wallpaper/linear-red-black-gradient-highlight-1920x1080-c2-000000-b22222-l-33-a-165-f-21.svg);
     height : 30rem;
@@ -79,6 +82,9 @@ body{
     margin-top : 20vh;
     margin-bottom : 10vh;
 }
+
+/* CSS for About section */
+
 #my-Image img{
     border-radius: 50%;
     width: 300px;
@@ -108,8 +114,288 @@ body{
 #about a{
     text-decoration: none;
 }
+
+.flex-container div{
+    display: flex;
+    flex-wrap: nowrap;    
+    margin :40px;
+    text-align: center;
+    box-shadow : 0px 0px 50px 0px white;
+    background-color :rgb(73, 73, 73);
+    padding-bottom: 10px;
+    border-radius: 25px;
+
+      
+  }
+
+
+  /* CSS for Skills section */
+  .row1{
+    width: 50%;
+    float: left;}
+    .row2{
+        width: 50%;
+        float: right;}
+.container-all-progress{
+    display: flex;
+    flex-wrap: nowrap;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin :40px;
+    border-radius: 25px;
+
+    max-width: 540px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    box-shadow : 0px 0px 50px 0px white;
+    background-color :rgb(73, 73, 73);
+}
+
+.container-html{
+     display: flex;
+    flex-wrap: nowrap;     
+    margin :40px;
+    height:1cm;
+    max-width: 540px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    background-color :  rgb(192, 192, 192);;
+    border-radius: 25px;
+
     
+}
+
+.container-html div{
+    background-color : rgb(255, 136, 0);
+    width:70%;
+    border-radius: 25px;
+
+    
+}
+
+.container-css{
+    display: flex;
+   flex-wrap: nowrap;     
+   margin :40px;
+    height:1cm;
+   max-width: 540px;
+   margin-right: auto;
+   margin-left: auto;
+   width: 100%;
+   background-color :  rgb(192, 192, 192);;
+   border-radius: 25px;
+
+}
+
+.container-css div{
+   background-color : rgb(0, 26, 255);
+   width:60%;
+   
+   border-radius: 25px;
+
+}
+
+.container-java{
+    display: flex;
+   flex-wrap: nowrap;     
+   margin :40px;
+    height:1cm;
+   max-width: 540px;
+   margin-right: auto;
+   margin-left: auto;
+   width: 100%;
+   background-color :  rgb(192, 192, 192);;
+   border-radius: 25px;
+
+}
+
+.container-java div{
+   background-color : rgb(212, 0, 255);
+   width:70%;
+   
+   border-radius: 25px;
+
+}
+
+
+.container-kotlin{
+    display: flex;
+   flex-wrap: nowrap;     
+   margin :40px;
+    height:1cm;
+   max-width: 540px;
+   margin-right: auto;
+   margin-left: auto;
+   width: 100%;
+   background-color :  rgb(192, 192, 192);;
+   border-radius: 25px;
+
+}
+
+.container-kotlin div{
+   background-color : rgb(16, 145, 5);
+   width:60%;
+   
+   border-radius: 25px;
+
+}
+
+.container-python{
+    display: flex;
+   flex-wrap: nowrap;     
+   margin :40px;
+    height:1cm;
+   max-width: 540px;
+   margin-right: auto;
+   margin-left: auto;
+   width: 100%;
+   background-color :  rgb(192, 192, 192);;
+   border-radius: 25px;
+
+}
+
+.container-python div{
+   background-color : rgb(165, 30, 7);
+   width:80%;
+   border-radius: 25px;
+
+   
+}
+
+.container-flask{
+    display: flex;
+   flex-wrap: nowrap;     
+   margin :40px;
+    height:1cm;
+   max-width: 540px;
+   margin-right: auto;
+   margin-left: auto;
+   width: 100%;
+   background-color :  rgb(192, 192, 192);;
+   border-radius: 25px;
+
+}
+
+.container-flask div{
+   background-color : rgb(173, 5, 5);
+   width:40%;
+   border-radius: 25px;
+
+   
+}
+
+.container-cpp{
+    display: flex;
+   flex-wrap: nowrap;     
+   margin :40px;
+    height:1cm;
+   max-width: 540px;
+   margin-right: auto;
+   margin-left: auto;
+   width: 100%;
+   background-color :  rgb(192, 192, 192);;
+   border-radius: 25px;
+
+}
+
+.container-cpp div{
+   background-color : rgb(32, 129, 121);
+   width:70%;
+   border-radius: 25px;
+
+   
+}
+
+.container-mysql{
+    display: flex;
+   flex-wrap: nowrap;     
+   margin :40px;
+    height:1cm;
+   max-width: 540px;
+   margin-right: auto;
+   margin-left: auto;
+   width: 100%;
+   background-color : rgb(192, 192, 192);
+   border-radius: 25px;
+
+}
+
+.container-mysql div{
+   background-color : rgb(161, 163, 1);
+   width:60%;
+   
+   border-radius: 25px;
+
+}
+
+
+.skills-heading
+{
+    font-size : 2.5rem;
+    letter-spacing : 0.1rem;
+    color : white;
+} 
+    
+.progress-value{
+    color : white;
+    font-weight:80;
+    font-size: 1.8rem;
+    padding-left: 10px;
+    letter-spacing: 0.1rem;
+}
+
+/* CSS for Experience section */
+
+.experience-heading
+{
+    font-size : 2.5rem;
+    letter-spacing : 0.1rem;
+    color : white;
+}
+
+.experience-container
+{
+    display: flex;
+    flex-wrap: nowrap;    
+    justify-content: center;
+    margin :40px;
+    border-radius: 25px;
+    max-width: 93%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 5cm;
+    box-shadow : 0px 0px 50px 0px white;
+    background-color :rgb(73, 73, 73);
+}
+
+.training-program{
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content : center;
+    padding-top:auto;
+    width:40%;
+    place-items:center;
+    border-right: solid white;
+    color: white;
+}
+
+.details{
+    color : white;
+    place-items:center;
+    padding:15px;
+    letter-spacing: 0.1rem;
+    width:100%;
+    font-size:1.1rem;
+}
+
 .text-center{
     text-align : center;
-} 
 
+} 
